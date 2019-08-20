@@ -156,7 +156,7 @@
 	/* Blockquote */
 	--theme-quote--border-color: var(--theme-color-primary);
 	--theme-quote--border-style: solid;
-	--theme-quote--border-width: 0.45rem;
+	--theme-quote--border-width: 0;
 	--theme-quote--border: var(--theme-quote--border-width) var(--theme-quote--border-style) hsl(var(--theme-quote--border-color));
 	--theme-quote--color: var(--theme-color-heading);
 	--theme-quote--font-size: var(--theme-h2--font-size);

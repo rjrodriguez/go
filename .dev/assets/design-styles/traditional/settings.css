@@ -265,9 +265,9 @@
 	--theme-site-nav--color: var(--theme-color-heading);
 	--theme-site-nav--color-interactive: var(--theme-color-primary);
 	--theme-site-nav--font: var(--theme-body--font);
-	--theme-site-nav--font-size: 1.1rem;
+	--theme-site-nav--font-size: 1.05rem;
 	--theme-site-nav--font-size-mobile: 1.5rem;
-	--theme-site-nav--weight: 600;
+	--theme-site-nav--weight: 400;
 	--theme-site-nav--text-transform: normal;
 	--theme-site-nav--tracking: 0;
 	--theme-site-nav--transition: var(--theme-link-transition);
