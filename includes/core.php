@@ -410,7 +410,17 @@ function script_loader_tag( $tag, $handle ) {
  */
 function body_classes( $classes ) {
 
-	// Add class whenever a WooCommerce block is added to a page.
+	$footer_text_color = get_theme_mod( 'footer_text_color', false );
+	$footer_nav_1      = has_nav_menu( 'footer-1' );
+
+	if ( $footer_text_color ) {
+		$classes[] = 'has-footer-text-color';
+	}
+
+	if ( $footer_nav_1 ) {
+		$classes[] = 'has-footer-menu';
+	}
+
 	if (
 		has_block( 'woocommerce/handpicked-products' )
 		|| has_block( 'woocommerce/product-best-sellers' )

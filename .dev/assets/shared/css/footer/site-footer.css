@@ -55,6 +55,10 @@
 	}
 }
 
+body.has-footer-text-color .site-footer a:hover {
+	color: hsl(var(--theme-footer-nav--color-interactive));
+}
+
 .footer-navigation {
 	line-height: var(--theme-footer-nav--leading);
 
