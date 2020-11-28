@@ -1,0 +1,26 @@
+/*! WooCommerce: Checkout */
+body {
+
+	&.woocommerce-checkout {
+
+		.content-area .woocommerce {
+			max-width: 100% !important;
+			width: 100% !important;
+
+			.shop_table {
+
+				thead {
+					border-bottom: 1px solid;
+
+					th:not(:first-child) {
+						text-align: center;
+					}
+				}
+
+				tfoot tr {
+					border-bottom: 1px solid !important;
+				}
+			}
+		}
+	}
+}
